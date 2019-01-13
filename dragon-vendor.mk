@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/tegra_lp0_resume.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/tegra210/tegra_lp0_resume.fw \
     vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/vic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/tegra210/vic.bin \
     vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/xusb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/tegra210/xusb.bin \
-    vendor/google/dragon/proprietary/vendor/firmware/rt5677_elf_vad:$(TARGET_COPY_OUT_VENDOR)/firmware/rt5677_elf_vad \
     vendor/google/dragon/proprietary/vendor/firmware/synaptics.img:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics.img \
     vendor/google/dragon/proprietary/vendor/lib/egl/libEGL_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_tegra.so \
     vendor/google/dragon/proprietary/vendor/lib/egl/libGLESv1_CM_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_tegra.so \
@@ -61,6 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/lib/hw/camera.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.dragon.so \
     vendor/google/dragon/proprietary/vendor/lib/hw/gatekeeper.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.dragon.so \
     vendor/google/dragon/proprietary/vendor/lib/hw/gralloc.tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.tegra.so \
+    vendor/google/dragon/proprietary/vendor/lib/hw/keystore.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.dragon.so \
     vendor/google/dragon/proprietary/vendor/lib/hw/memtrack.dragon.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.dragon.so \
     vendor/google/dragon/proprietary/vendor/lib/hw/vulkan.tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.tegra.so \
     vendor/google/dragon/proprietary/vendor/lib/libfcamdng.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfcamdng.so \
