@@ -116,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/lib/libtbb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtbb.so \
     vendor/google/dragon/proprietary/vendor/lib/libtlk_secure_hdcp_up.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtlk_secure_hdcp_up.so \
     vendor/google/dragon/proprietary/vendor/lib/libtsechdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtsechdcp.so \
+    vendor/google/dragon/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/google/dragon/proprietary/vendor/lib64/egl/libEGL_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_tegra.so \
     vendor/google/dragon/proprietary/vendor/lib64/egl/libGLESv1_CM_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_tegra.so \
     vendor/google/dragon/proprietary/vendor/lib64/egl/libGLESv2_tegra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_tegra.so \
@@ -144,6 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/google/dragon/proprietary/vendor/lib64/libtlk_secure_hdcp_up.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtlk_secure_hdcp_up.so \
     vendor/google/dragon/proprietary/vendor/lib64/libtsechdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtsechdcp.so \
+    vendor/google/dragon/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/google/dragon/proprietary/vendor/xbin/wlutil:$(TARGET_COPY_OUT_VENDOR)/xbin/wlutil
 
 $(call inherit-product,vendor/google/dragon/dragon-vendor-rootfs.mk)
