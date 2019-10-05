@@ -163,4 +163,4 @@ PRODUCT_COPY_FILES += \
     vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/bpmp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/tegra210/bpmp.bin \
     vendor/google/dragon/proprietary/vendor/firmware/nvidia/tegra210/xusb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvidia/tegra210/xusb.bin
 
-$(call inherit-product,vendor/google/dragon/dragon-vendor-rootfs.mk)
+$(call inherit-product,vendor/google/dragon/dragon-vendor-ramdisk.mk)
